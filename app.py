@@ -82,3 +82,60 @@ print(find)
 replace = string.replace('string', 'python character')
 print(replace)
 print('java' in string)
+
+# arithmetic operations
+print(10 + 3)
+print(10 - 4)
+print(10 * 3)
+print(10 % 3)
+print(10 // 3)
+print(10 / 3)
+print(10 ** 3)
+
+x = 10
+# x  = x + 3
+x += 10
+print(x)
+x -= 1
+print(x)
+
+# operation procedures
+y = 10 + 3 * 10 ** 2 / 10
+print(y)
+z = (10 + 3) * 10 ** 2 / 10 - 3
+print(z)
+
+# math function
+f = 3.11232
+print(round(f))
+print(abs(-10.1))
+
+import math
+print(math.ceil(2.9))
+print(math.floor(2.9))
+# search python 3 module documentation
+
+# if statement
+is_hot = False
+is_cold = True
+
+if is_hot:
+    print("It is real hot!")
+    print("take care of your self!")
+elif is_cold:
+    print("it is not hot but cold!")
+    print("go sleep")
+else:
+    print("neither cold nor hot!")
+print("always here!")
+
+# exercise
+price = 10000
+has_good_credit = True
+
+if has_good_credit:
+    down_payment = 0.1 * price 
+    # print(down_payment)
+else:
+    down_payment = 0.2 * price
+print(f"Down payment: ${down_payment}")
