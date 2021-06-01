@@ -173,3 +173,11 @@ elif len(letter) > 10:
     print("name can not be more than 50 characters!")
 else:
     print("it looks good!")
+    
+# while loops
+index = 1
+while index <= 10:
+    print('*' * index)
+    index = index + 1
+    print("next loop...")
+print("Done")
