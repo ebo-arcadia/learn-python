@@ -139,3 +139,37 @@ if has_good_credit:
 else:
     down_payment = 0.2 * price
 print(f"Down payment: ${down_payment}")
+
+# logical operations
+has_high_income = True
+has_good_score = False
+
+# and: both
+if has_good_score or has_high_income:
+    print("eligble for loans!")
+    
+if has_good_score and has_high_income:
+    print("eligble for loans!")
+
+has_criminal_record = False
+
+if has_good_credit and not has_criminal_record:
+    print("eligble for loan witout criminal record???")
+    
+# compare operations
+temp = 35
+
+if temp == 30:
+    print("it is really hot!")
+else:
+    print("not hot at all")
+
+# exercise
+letter = "Leon"
+
+if len(letter) < 3:
+    print("name must be at least 3 characters!")
+elif len(letter) > 10:
+    print("name can not be more than 50 characters!")
+else:
+    print("it looks good!")
