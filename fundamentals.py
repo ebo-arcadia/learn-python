@@ -181,3 +181,45 @@ while index <= 10:
     index = index + 1
     print("next loop...")
 print("Done")
+
+# for loops
+for item in [5, 'string', 'sun', 'moon']:
+    print(item)
+    
+for item in range(3, 20, 3):
+    print(item)
+    
+# nested loop
+for x in range(4):
+    for y in range (5):
+        for z in range (3):
+            print(f"({x}, {y}, {z})")
+            
+#lists
+name = ['john', 'matt', 'luke', 'mark']
+print(name)
+print(name[0])
+print(name[-1])
+print(name[2:3])
+name[0] = 'james'
+print(name)
+
+numbers = [100, 123, 1, 10, 5, 45]
+max = numbers[0]
+for number in numbers:
+    if number > max:
+        max = number
+print(max)
+
+# 2-dimensinal list
+matrix = [
+    [1,2,3],
+    [4,5,6],
+    [6,7,8]
+]
+matrix[0][2] = 1000
+print(matrix[0][2])
+
+for row in matrix:
+    for item in row:
+        print(item)
