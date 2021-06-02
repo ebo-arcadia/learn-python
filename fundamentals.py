@@ -288,4 +288,8 @@ print("Start")
 greet_user()
 print("done")
 
-# parameters
+# comment
+# why use comment?
+
+# class
+# used to define new types
