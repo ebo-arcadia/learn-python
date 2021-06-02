@@ -278,4 +278,14 @@ for character in phone:
     output += digits_mapping.get(character, "!") + " "
 print(output)
 
-# 
+# function
+def greet_user():
+    print("what's up man?")
+    print("learning python is fine!")
+
+
+print("Start")
+greet_user()
+print("done")
+
+# parameters
