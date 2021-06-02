@@ -223,3 +223,59 @@ print(matrix[0][2])
 for row in matrix:
     for item in row:
         print(item)
+        
+numbers = [4,3,1,5,6,12, 4, 4]
+numbers.append(13)
+numbers.pop()
+print(numbers)
+numbers.insert(0, 100)
+print(numbers)
+numbers.remove(4)
+print(numbers)
+# numbers.clear()
+print(numbers)
+print(100 in numbers)
+print(numbers.count(5))
+print(numbers)
+numbers.sort()
+print(numbers)
+number2 = numbers.copy()
+
+# tuples
+nums = (1,2,3)
+#nums[0] = 1022
+print(nums[0])
+
+# unpacking 
+coordinates = (1,2,3)
+# x = coordinates[0]
+# y = coordinates[1]
+# z = coordinates[2]
+
+x, y, z = coordinates
+print(x)
+
+# dictionaries
+customer = {
+    "name": "john",
+    "age": 33,
+    "is_verified": True
+}
+
+customer["name"] = "new name"
+print(customer["name"])
+print(customer.get("name", "1988"))
+
+phone = input("Phone: ")
+digits_mapping = {
+    "1": "One",
+    "2": "Two",
+    "3": "Three"
+}
+
+output = ""
+for character in phone:
+    output += digits_mapping.get(character, "!") + " "
+print(output)
+
+# 
