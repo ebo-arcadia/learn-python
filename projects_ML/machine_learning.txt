@@ -1,0 +1,25 @@
+what is ML? 
+pattern recognition
+
+# higher level steps to follow in ML project
+
+1. import data
+2. clean the date no duplicates
+3. split the data into training/test sets
+4. create a model (algorithm has pros and cons depending the project)
+5. train the model
+6. make predictions
+7. evaluate and improve
+
+# Popular libraries in ML
+
+Numpy
+Pandas (arrange data)
+MatPlotLib
+Scikit-Learn
+jupyter
+
+# to do:
+1. install anaconda including all libs above
+2. open up jupyter notebook
+3. import data
